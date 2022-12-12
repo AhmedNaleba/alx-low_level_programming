@@ -5,22 +5,17 @@
  *
  * Return: 0
  */
- int main(void)
+int main(void)
 {
-	int a;
+	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
-		if ((a = 'q') && (a = 'e'))
-		{
-			continue;
-		}
-		else 
-		{
+		if (a != 'q' && a != 'e')
 			putchar(a);
-		}
-		putchar('\n');
 	}
+
+		putchar('\n');
 
 	return (0);
 }
