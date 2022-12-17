@@ -9,3 +9,5 @@
 8-print_square.c - C function that prints a square, followed by a new line.
 9-fizz_buzz.c - Print FIZZ BUZZ
 10-print_triangle.c - C function that prints a triangle, followed by a new line.
+
+101-print_number.c - C function that prints an integer.
