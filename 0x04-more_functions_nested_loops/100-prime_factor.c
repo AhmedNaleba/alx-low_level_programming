@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (a % b == 0)
 		{
-			a = b / b;
+			a = a / b;
 		}
 	}
 	printf("%ld\n", b);
