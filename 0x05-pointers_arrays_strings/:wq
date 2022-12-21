@@ -1,0 +1,26 @@
+#include "main.h"
+#include <string.h>
+
+void print_rev(char *s)
+{
+	char a[100];
+	int i, x, count = 0;
+
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+
+	x = count -1;
+
+	for (i = 0; i < count; i++)
+		a[i] = s[x];
+	x--;
+	{
+		_putchar(x);
+	}
+
+	_putchar('\n');
+
+}
+
