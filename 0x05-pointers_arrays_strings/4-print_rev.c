@@ -11,9 +11,9 @@
 void print_rev(char *s)
 {
 	int a = 0;
-	char end;
+	int end;
 
-	for (end = 0; end[s] != '\0'; end++)
+	for (end = 0; s[end] != '\0'; end++)
 	{
 
 	}
