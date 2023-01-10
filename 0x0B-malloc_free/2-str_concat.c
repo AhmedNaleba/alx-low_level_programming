@@ -12,7 +12,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *a;
-	int m, h, p, f;
+	unsigned int m, h, p, f;
 
 	if ((s1 == NULL) && (s2 == NULL))
 	{
@@ -31,14 +31,14 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 	for (p = 0; p < m; p++)
-	{
 		a[p] = s1[p];
-	}
+
 	f = h;
 	for (h = 0; h <= f; p++, h++)
 	{
 		a[p] = s2[h];
 	}
+
 		return (a);
 }
 
