@@ -14,20 +14,20 @@ int main(int argc, char *argv[])
 	int a;
 	int mult = 1;
 
-	for (a = 1; a < argc; a++)
-	{
-		mult = mult * atoi(argv[a]);
-	}
-	if (a == 1)
+	if (argc == 1)
 	{
 		printf("Error\n");
 		exit(EXIT_FAILURE);
 	}
-
-	printf("%d\n", mult);
+	if (argc >= 2)
+	{
+		for (a = 1; a < argc; a++)
+		{
+			mult = mult * atoi(argv[a]);
+		}
+		printf("%d\n", mult);
+	}
 	return (0);
-
-
 
 }
 
